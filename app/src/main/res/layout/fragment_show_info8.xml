@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/judulArtikel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Berada dititik paling Bawah"
+            android:textColor="#1175A3"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/info8"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Terakhir diperbarui: 3 Desember 2021"
+            android:textSize="10dp"
+            android:textColor="#1C9EAE"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      Setiap manusia di Bumi pasti memiliki masalah, mengapa demikian? Karena memang pada hakikatnya manusia tidak akan pernah lepas dari masalah, masalah itu datang tanpa kita sadari sebelumnya dan kita juga tidak mengetahui seberapa besar bobot masalah yang akan kita dapatkan. Bahkan apabila kita melihat jauh sebelum manusia ada di muka Bumi kita sama sama tahu bahwa manusia bisa berada di Bumi karena adanya suatu masalah, itu artinya masalah adalah hal yang sangat biasa dalam berkehidupan di Bumi."
+            android:textSize="14dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_marginVertical="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      Namun, beberapa manusia pasti setidaknya pernah merasakan berada didalam titik terendah dalam hidup, walaupun sebetulnya belum tentu itu menjadi titik terendah mereka karena tidak ada yang bisa menjamin apakah masalah yang lebih besar tidak akan datang dikemudian hari. Awalnya, mungkin kita merasakan setiap hal di Bumi serasa ada digenggaman kita, merasa banyak orang yang menyukai kita, kekuasaan, kesombongan, keserakahan dsb. "
+            android:textSize="14dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_marginVertical="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      Lalu pemilik-Nya mengambil semua apa yang telah Ia berikan sehingga permasalahan terhadap sikap diri sendiri, sikap terhadap orang lain bahkan perilaku diri sendiri yang berpengaruh terhadap orang lain membuat keadaan semakin lama semakin memburuk sehingga kita tersadar telah mencapai titik terendah dalam hidup. Ketika kita berada di titik terendah dalam hidup mungkin bisa dikatakan kita akan bercermin terhadap diri kita sendiri maka kita akan merasa 'jijik' terhadap diri sendiri karena sebuah kondisi dimana masalah terus datang bertubi tubi, merasa lelah, merasa malu, bahkan kehilangan jati diri. Rasanya sangat berat untuk berdamai dengan diri sendiri dan keadaan, mereka yang telah membuat hidup terpuruk atau bahkan diri sendiri yang telah membuat hidup semakin terpuruk. Inilah sebuah titik dimana dunia terasa jungkir balik. Satu-satunya perasaan yang bisa kita rasakan hanyalah perasaan negatif seperti sedih, gelisah, juga kehilangan energi dan motivasi."
+            android:textSize="14dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_marginVertical="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      Hidup memang tak semudah melafalkan 'I love my life so you should love your life as much as I do' dengan lantang. Namun justru perlahan saya tersadar bahwa dititik ini mungkin kita akan bisa membuat perubahan besar dalam hidup kita dan hanya ada 2 pilihan antara mau atau tidak mau, mau bangkit atau hanya tetap terpuruk dalam kondisi yang demikian. Satu hal yang mesti kita pahami dan ingat, titik terendah bukanlah titik terakhir. Dan yang mesti kita lakukan bukanlah menunggu datangnya keajaiban yang bisa mengubah seluruh hidup ini, tapi kita harus bangkit, berjuang untuk menemukan dan meraih titik tertinggi dalam hidup kita. Suatu gelas yang sudah pecah retak memang takan pernah bisa kembali bagus seperti semula apabila kita hanya terpaku dalam 'serpihan gelas' tersebut, setiap orang punya masalah besar dalam hidupnya, punya kesalahan terbesar dalam hidupnya. "
+            android:textSize="14dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_marginVertical="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      Namun kita harus percaya juga bahwa setiap manusia bisa berubah untuk lebih baik dan mungkin mengevaluasi, mengikhlaskan dan menikmati sakitnya 'serpihan gelas' tersebut adalah jalan yang harus kita tempuh dengan lapang dada sampai kelak kita tidak sadar 'serpihan gelas' tersebut telah hilang tak menjadi sakit atas perubahan perubahan yang kita berbuat sehingga kita bisa melangkah pasti untuk masa depan yang lebih baik. Lepaskan dan hilangkan segala perasaan tidak baik, penyesalan, amarah dan sedih yang tiada ujungnya, itu satu-satunya cara yang bisa kamu lakukan agar bisa memaafkan diri kamu sendiri dan mulai mencintai dirimu kembali. Titik terendah bukanlah tempat untuk menyerah, namun titik terendah adalah tempat untuk berpijak membangun fondasi yang lebih kokoh dan megah."
+            android:textSize="14dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="'Never lost hope, because it is the key to achieve all your dreams.'"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:background="@drawable/arrow"
+            android:textColor="#000000"/>
+    </LinearLayout>
+</ScrollView>

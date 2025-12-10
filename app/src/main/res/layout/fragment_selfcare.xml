@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        tools:context=".SelfCareFragment">
+
+        <LinearLayout
+            android:id="@+id/identitas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="15dp"
+            android:background="@drawable/button_rounded">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:text="Euphoria.Self-Care"
+                android:textColor="#FF5C00"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/terapis1"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                app:srcCompat="@drawable/applogo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Aplikasi Kesehatan Mental Gratis"
+                android:textColor="#1C9EAE"
+                android:textSize="16dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:text="'Karena terkadang yang dibutuhkan hanyalah tempat untuk bercerita'"
+                android:textColor="#8E8E8E"
+                android:textSize="12dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="185dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:paddingHorizontal="10dp"
+                android:text="Penyedia layanan kesehatan mental  terpercaya di Indonesia berupa relaksasi untuk pengobatan dan pengontrolan mental secara online. Kamu bisa memanfaatkan fitur Notes untuk mencatat perasaan kamu setiap harinya. Fitur Information dapat dimanfaatkan untuk mendapatkan informasi tentang kesehatan mental. Jika dalam keadaan darurat, Anda bisa langsung menggunakan fitur emergency call. Euphoria.Self-Care akan menjaga rahasia anda dengan aman. "
+                android:textAlignment="gravity"
+                android:textColor="#8E8E8E"
+                android:textSize="14dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+
+                <Button
+                    android:id="@+id/notes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="77dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:autoSizeMinTextSize="4dp"
+                    android:backgroundTint="#FFFFFF"
+                    android:drawableTop="@drawable/ic_baseline_note_add_24"
+                    android:drawableTint="#BAE4DF"
+                    android:text="Notes"
+                    android:textColor="#BAE4DF"
+                    android:textSize="8dp" />
+
+                <Button
+                    android:id="@+id/info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#58A0C8"
+                    android:drawableTop="@drawable/ic_baseline_menu_book_24"
+                    android:drawableTint="#BAE4DF"
+                    android:text="Information"
+                    android:textColor="#BAE4DF"
+                    android:textSize="8dp" />
+
+                <Button
+                    android:id="@+id/Call"
+                    android:layout_width="wrap_content"
+                    android:layout_height="77dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="7dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#58A0C8"
+                    android:drawableTop="@drawable/ic_baseline_add_ic_call_24"
+                    android:drawableTint="#BAE4DF"
+                    android:text="Emergency Call"
+                    android:textColor="#BAE4DF"
+                    android:textSize="8dp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnLogout"
+                android:layout_width="180dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#FF6648"
+                android:text="Keluar"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="21dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

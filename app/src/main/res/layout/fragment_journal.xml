@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✨ Jurnal Self-Care Harian ✨"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#1C9EAE"
+            android:gravity="center"
+            android:paddingBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/etDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#1C9EAE"
+            android:hint="Tanggal (contoh: 12 November 2025)"
+            android:inputType="text"
+            android:textColor="#0D0D0D" />
+
+        <EditText
+            android:id="@+id/etAffirmation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#1C9EAE"
+            android:gravity="top"
+            android:hint="Afirmasi positif hari ini"
+            android:inputType="textMultiLine"
+            android:minLines="2"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/etReflection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#1C9EAE"
+            android:gravity="top"
+            android:hint="Catatan refleksi harian kamu..."
+            android:inputType="textMultiLine"
+            android:minLines="5"
+            android:textColor="#121212" />
+
+        <Button
+            android:id="@+id/btnSaveJournal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Simpan Jurnal"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#1C9EAE"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/btnViewHistory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lihat Riwayat Jurnal" />
+
+
+    </LinearLayout>
+</ScrollView>

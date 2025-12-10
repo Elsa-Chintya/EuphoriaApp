@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/judulArtikel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Merasa Cemas? Ini Penyebabnya"
+            android:textColor="#1175A3"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp" />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:src="@drawable/info5"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Terakhir diperbarui: 14 November 2021"
+            android:textSize="10dp"
+            android:textColor="#1C9EAE"/>
+        <TextView
+            android:layout_marginVertical="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      Gangguan kecemasan adalah kondisi psikologis ketika seseorang mengalami rasa cemas berlebihan secara konstan dan sulit dikendalikan, sehingga berdampak buruk terhadap kehidupan sehari-harinya. Bagi sebagian orang normal, rasa cemas biasanya timbul pada suatu kejadian tertentu saja, misalnya saat akan menghadapi ujian di sekolah atau wawancara kerja. Namun pada penderita gangguan kecemasan, rasa cemas ini kerap timbul pada tiap situasi. Itu sebabnya orang yang mengalami kondisi ini akan sulit merasa rileks dari waktu ke waktu. Selain gelisah atau rasa takut yang berlebihan, gejala psikologis lain yang bisa muncul pada penderita gangguan kecemasan adalah berkurangnya rasa percaya diri, menjadi mudah marah, stres, sulit berkonsentrasi, dan menjadi penyendiri. Sebenarnya, gangguan kecemasan dapat diatasi tanpa bantuan dokter melalui beberapa cara, seperti mengonsumsi makanan bergizi tinggi, cukup tidur, mengurangi asupan kafein, minuman beralkohol, atau zat penenang lainnya, tidak merokok, berola raga secara rutin, dan melakukan metode relaksasi sederhana, seperti yoga atau meditasi. Jika pengobatan mandiri tidak memberikan perubahan, disarankan untuk berkonsultasi dengan dokter. Penanganan dari dokter biasanya meliputi pemberian obat-obatan antiansietas serta terapi kognitif. Rasa cemas atau anxiety adalah hal yang wajar, terutama jika ada tekanan atau kondisi tertentu.  Namun, jika rasa cemas dan khawatir menjadi tidak terkendali, berlebihan, bahkan sampai mengganggu aktivitas sehari-hari, maka bisa jadi ini merupakan tanda Anda sedang mengalami gangguan kecemasan umum."
+            android:textSize="14dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_marginVertical="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      Gejala gangguan kecemasan umum yang bisa dikenali antara lain: munculnya rasa cemas dan khawatir yang berlebihan terhadap berbagai kondisi yang tidak khas, munculnya pikiran yang berlebihan tentang rencana dan solusi untuk setiap kemungkinan terburuk yang belum tentu muncul, mudah merasa tersinggung, gelisah, gugup, dan tersudut, ragu-ragu, takut, dan sulit untuk mengambil suatu keputusan, dan sulit untuk berkonsentrasi."
+            android:textSize="14dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_marginVertical="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      Gangguan kecemasan umum juga dapat menimbulkan gejala fisik, seperti selalu merasa lelah, mengalami gangguan tidur, sakit kepala, gemetar, keringat berlebihan, dan mual, sakit perut, serta diare yang berulang."
+            android:textSize="14dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Penyebab Gangguan Kecemasan Umum"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:background="@drawable/arrow"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_marginVertical="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      Hingga saat ini belum diketahui penyebab pasti dari gangguan kecemasan umum. Meski demikian, kombinasi berbagai faktor diduga berkontribusi dalam memicu munculnya gangguan kecemasan umum. Faktor-faktor tersebut adalah: memiliki riwayat trauma atau pernah mengalami peristiwa yang membuat stres, seperti bullying atau perundungan, memiliki keluarga dengan riwayat gangguan kecemasan umum, memiliki penyakit yang membutuhkan pengobatan jangka panjang, seperti arthritis, memiliki riwayat penggunaan obat-obatan terlarang atau kecanduan minuman keras, dan memiliki riwayat gangguan pada sistem saraf."
+            android:textSize="14dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kapan harus ke dokter"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:background="@drawable/arrow"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_marginVertical="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      Lakukan pemeriksaan ke dokter jika rasa cemas dan khawatir yang Anda alami berlebihan, tidak terkendali, dan mengganggu aktivitas sehari-hari, atau ketika Anda mengalami keluhan dan gejala yang disebutkan di atas. Anda juga sebaiknya melakukan pemeriksaan ke dokter jika memiliki riwayat gangguan mental lain, seperti gangguan panik, obsessive compulsive disorder (OCD), atau depresi. Jika sudah didiagnosis mengalami gangguan kecemasan umum, kontrol rutin ke dokter juga perlu dilakukan untuk memantau perkembangan kondisi."
+            android:textSize="14dp"
+            android:textColor="#000000"/>
+    </LinearLayout>
+</ScrollView>

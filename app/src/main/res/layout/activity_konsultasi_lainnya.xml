@@ -1,0 +1,265 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/notes_background"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rekomendasi Lainnya"
+            android:textColor="#8E8E8E" android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/button_rounded"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="10dp">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/applogo"
+            android:layout_margin="10dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            >
+            <TextView
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Unit Pelayanan Psikologi UNAIR"
+                android:textColor="#1C9EAE"
+                android:textSize="17dp" android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Lt. 3 Fakultas Psikologi UNAIR, Jl. Dharmawangsa No.4-6"
+                android:textColor="#8E8E8E" android:textSize="10dp" />
+            <TextView
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:autoLink="phone" android:linksClickable="true"
+                android:text="+62315047251"
+                android:textColor="#8E8E8E" android:textSize="10dp" />
+            <Button
+                android:id="@+id/btnUPP"
+                android:layout_width="wrap_content" android:layout_height="30dp"
+                android:layout_alignParentBottom="true"
+                android:backgroundTint="#1B96A6" android:gravity="center"
+                android:text="Lihat Maps" android:layout_marginTop="5dp"
+                android:textColor="@color/white" android:textSize="8dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/button_rounded"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="10dp">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/applogo"
+                android:layout_margin="10dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Lembaga Psikologi Dr. Soetomo"
+                    android:textColor="#1C9EAE"
+                    android:textSize="17dp" android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Jl. Ketintang Madya II No.1"
+                    android:textColor="#8E8E8E" android:textSize="10dp" />
+                <TextView
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:autoLink="phone" android:linksClickable="true"
+                    android:text="+62318290211"
+                    android:textColor="#8E8E8E" android:textSize="10dp" />
+                <Button android:id="@+id/btnLPD"
+                    android:layout_width="wrap_content" android:layout_height="30dp"
+                    android:layout_alignParentBottom="true"
+                    android:backgroundTint="#1B96A6" android:gravity="center"
+                    android:text="Lihat Maps" android:layout_marginTop="5dp"
+                    android:textColor="@color/white" android:textSize="8dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/button_rounded"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="10dp">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/applogo"
+                android:layout_margin="10dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Pusat Layanan Psikologi"
+                    android:textColor="#1C9EAE"
+                    android:textSize="17dp" android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Jl. Dinoyo, No. 42-44"
+                    android:textColor="#8E8E8E" android:textSize="10dp" />
+                <TextView
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:autoLink="phone" android:linksClickable="true"
+                    android:text="+62315678478"
+                    android:textColor="#8E8E8E" android:textSize="10dp" />
+                <Button android:id="@+id/btnPLP"
+                    android:layout_width="wrap_content" android:layout_height="30dp"
+                    android:layout_alignParentBottom="true"
+                    android:backgroundTint="#1B96A6" android:gravity="center"
+                    android:text="Lihat Maps" android:layout_marginTop="5dp"
+                    android:textColor="@color/white" android:textSize="8dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/button_rounded"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="10dp">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/applogo"
+                android:layout_margin="10dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="RSUD Dr. Soetomo"
+                    android:textColor="#1C9EAE"
+                    android:textSize="17dp" android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Jl. Mayjen Prof. Dr. Moestopo No.6-8, Airlangga, Gubeng, Surabaya"
+                    android:textColor="#8E8E8E" android:textSize="10dp" />
+                <TextView
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:autoLink="phone" android:linksClickable="true"
+                    android:text="+62315501078"
+                    android:textColor="#8E8E8E" android:textSize="10dp" />
+                <Button android:id="@+id/btnRSUD"
+                    android:layout_width="wrap_content" android:layout_height="30dp"
+                    android:layout_alignParentBottom="true"
+                    android:backgroundTint="#1B96A6" android:gravity="center"
+                    android:text="Lihat Maps" android:layout_marginTop="5dp"
+                    android:textColor="@color/white" android:textSize="8dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/button_rounded"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="10dp">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/applogo"
+                android:layout_margin="10dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="RS Premier Surabaya"
+                    android:textColor="#1C9EAE"
+                    android:textSize="17dp" android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Jl. Nginden Intan Barat Blok B, Ngenden Jangkungan, Sukolilo, Surabaya"
+                    android:textColor="#8E8E8E" android:textSize="10dp" />
+                <TextView
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:autoLink="phone" android:linksClickable="true"
+                    android:text="+62315993211"
+                    android:textColor="#8E8E8E" android:textSize="10dp" />
+                <Button android:id="@+id/btnRSPSP"
+                    android:layout_width="wrap_content" android:layout_height="30dp"
+                    android:layout_alignParentBottom="true"
+                    android:backgroundTint="#1B96A6" android:gravity="center"
+                    android:text="Lihat Maps" android:layout_marginTop="5dp"
+                    android:textColor="@color/white" android:textSize="8dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/button_rounded"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="10dp">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/applogo"
+                android:layout_margin="10dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="RS Darmo"
+                    android:textColor="#1C9EAE"
+                    android:textSize="17dp" android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Jl. Raya Darmo 90, Surabaya"
+                    android:textColor="#8E8E8E" android:textSize="10dp" />
+                <TextView
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:autoLink="phone" android:linksClickable="true"
+                    android:text="+62315676253"
+                    android:textColor="#8E8E8E" android:textSize="10dp" />
+                <Button android:id="@+id/btnRSD"
+                    android:layout_width="wrap_content" android:layout_height="30dp"
+                    android:layout_alignParentBottom="true"
+                    android:backgroundTint="#1B96A6" android:gravity="center"
+                    android:text="Lihat Maps" android:layout_marginTop="5dp"
+                    android:textColor="@color/white" android:textSize="8dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

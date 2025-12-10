@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🔔 Pengingat Self-Care"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Atur pengingat agar kamu tidak lupa untuk beristirahat, minum air, dan relaksasi."
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnCancelReminder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Batalkan Pengingat"
+        android:backgroundTint="@color/gray"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnPickTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pilih Waktu Pengingat" />
+
+
+</LinearLayout>

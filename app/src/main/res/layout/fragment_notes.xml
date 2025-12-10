@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/notes_background">
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:paddingHorizontal="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textStyle="bold"
+            android:text="Personal Notes"
+            android:gravity="center_vertical"
+            android:paddingRight="10dp"
+            android:textColor="#FF5C00"
+            android:textSize="30dp"
+            android:layout_centerVertical="true"/>
+
+        <Button
+            android:id="@+id/tambahCatatan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#58A0C8"
+            android:text="Catatan Baru"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <TextView android:textColor="#55B6C2"
+        android:text="Kamu bisa menulis apapun di sini tanpa khawatir!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="15dp"/>
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="1dp"
+        android:padding="10dp" >
+    </ListView>
+
+    <TextView
+        android:paddingHorizontal="20dp"
+        android:textColor="#4B4B4B"
+        android:id="@+id/empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Belum ada catatan!" />
+</LinearLayout>

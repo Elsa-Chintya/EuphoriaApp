@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/judulArtikel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Mengatasi Gangguan Kecemasan"
+            android:textColor="#1175A3"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp" />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:src="@drawable/info6"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Terakhir diperbarui: 14 November 2021"
+            android:textSize="10dp"
+            android:textColor="#1C9EAE"/>
+
+        <TextView
+            android:layout_marginVertical="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      Gangguan kecemasan adalah kondisi psikologis ketika seseorang mengalami rasa cemas berlebihan secara konstan dan sulit dikendalikan, sehingga berdampak buruk terhadap kehidupan sehari-harinya. Bagi sebagian orang normal, rasa cemas biasanya timbul pada suatu kejadian tertentu saja, misalnya saat akan menghadapi ujian di sekolah atau wawancara kerja. Namun pada penderita gangguan kecemasan, rasa cemas ini kerap timbul pada tiap situasi. Itu sebabnya orang yang mengalami kondisi ini akan sulit merasa rileks dari waktu ke waktu. Selain gelisah atau rasa takut yang berlebihan, gejala psikologis lain yang bisa muncul pada penderita gangguan kecemasan adalah berkurangnya rasa percaya diri, menjadi mudah marah, stres, sulit berkonsentrasi, dan menjadi penyendiri. Sebenarnya, gangguan kecemasan dapat diatasi tanpa bantuan dokter melalui beberapa cara, seperti mengonsumsi makanan bergizi tinggi, cukup tidur, mengurangi asupan kafein, minuman beralkohol, atau zat penenang lainnya, tidak merokok, berola raga secara rutin, dan melakukan metode relaksasi sederhana, seperti yoga atau meditasi. Jika pengobatan mandiri tidak memberikan perubahan, disarankan untuk berkonsultasi dengan dokter. Penanganan dari dokter biasanya meliputi pemberian obat-obatan antiansietas serta terapi kognitif."
+            android:textSize="14dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_marginVertical="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      Salah satu bentuk psikoterapi yang paling dikenal adalah terapi perilaku kognitif (CBT), di mana penderita diarahkan ke cara berpikir, bereaksi, dan berperilaku yang dapat membantunya mengurangi gejala kecemasan. Selain dengan obat-obatan dan psikoterapi, ada beberapa cara sederhana yang dapat dilakukan secara mandiri dan telah terbukti dapat membantu mengurangi gejala gangguan kecemasan, yaitu:"
+            android:textSize="14dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Menarik napas yang dalam"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:background="@drawable/arrow"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_marginVertical="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      Bernapas dengan dalam dapat membuat tubuh relaks dan mengurangi aktivitas saraf di otak yang menyebabkan rasa cemas. Ketika mengalami kecemasan, tarik napas panjang selama lima detik, kemudian tahan selama lima detik, lalu lepaskan kembali perlahan-lahan dalam lima detik juga. Lakukanlah beberapa kali sampai pikiran lebih tenang."
+            android:textSize="14dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Memusatkan pikiran pada aktivitas yang dijalani"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:background="@drawable/arrow"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_marginVertical="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      Ketika merasa cemas, fokus Anda akan terganggu. Jika ini terjadi, cobalah untuk kembali fokus pada hal yang akan Anda lakukan. Misalnya, jika ada jadwal membersihkan rumah atau mencuci baju, lakukanlah. Jika ada jadwal berkumpul dengan teman-teman, tetaplah pergi. Duduk diam tanpa melakukan apa pun dan diliputi kekhawatiran tentang hal-hal yang mungkin terjadi justru akan memperburuk kecemasan."
+            android:textSize="14dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Menerapkan metode 3-3-3"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:background="@drawable/arrow"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_marginVertical="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      Lihatlah ke lingkungan sekitar dan sebut tiga benda. Kemudian sebutkan tiga suara yang mungkin sedang terdengar saat itu. Lanjutkan dengan menyebut tiga bagian tubuh, seperti jari, lengan, dan pergelangan kaki, sambil menggerak-gerakkannya dengan santai. Teknik ini dapat membantu menghentikan atau mengalihkan pikiran negatif yang membuat Anda gelisah."
+            android:textSize="14dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Menghindari kafein dan alkohol"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:background="@drawable/arrow"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_marginVertical="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      Alkohol dapat memberikan sensasi rileks sebagai efek jangka pendek. Namun jika dikonsumsi terlalu sering atau berlebihan, alkohol justru dapat membuat gangguan cemas menjadi lebih berat. Konsumsi kafein, baik dalam bentuk kopi, cokelat, maupun teh, juga dapat memicu dan memperburuk gejala kecemasan. Beberapa studi menunjukkan bahwa konsumsi kopi dan teh dapat membuat seseorang merasa lebih gelisah dan sulit berkonsentrasi, terlebih jika dikonsumsi dalam jumlah berlebihan, yaitu lebih dari 2 gelas per hari."
+            android:textSize="14dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Bercerita kepada orang yang dipercaya"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:background="@drawable/arrow"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_marginVertical="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      Curhat atau menceritakan apa yang sedang Anda rasakan dan alami kepada orang yang Anda percaya bisa meringankan kecemasan Anda. Orang tersebut bisa saja psikiater, teman dekat, atau anggota keluarga yang memahami kondisi Anda. Sebagai alternatif, cobalah mencari support group yang beranggotakan orang-orang dengan keluhan yang serupa, sehingga bisa saling berbagi pengalaman dan tips tentang bagaimana cara mengatasi gangguan kecemasan."
+            android:textSize="14dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. Menyediakan waktu untuk diri sendiri"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:background="@drawable/arrow"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_marginVertical="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      Sediakan waktu untuk berjalan santai, melakukan meditasi, mendapatkan pijatan, atau berendam di air hangat. Bila perlu, matikan telepon genggam Anda selama beberapa saat agar Anda tidak terganggu. Terkadang kecemasan dapat disebabkan oleh meningkatnya hormon stres. Cara-cara relaksasi tersebut bisa membuat Anda merasa lebih tenang, sehingga rasa cemas pun bisa reda."
+            android:textSize="14dp"
+            android:textColor="#000000"/>
+    </LinearLayout>
+</ScrollView>

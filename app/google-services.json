@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "485185473283",
+    "firebase_url": "https://euphoria-self-care-default-rtdb.firebaseio.com",
+    "project_id": "euphoria-self-care",
+    "storage_bucket": "euphoria-self-care.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:485185473283:android:6de15aca4587ef5575b736",
+        "android_client_info": {
+          "package_name": "com.euphoria.selfcare.euphoria"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDE3WJO63w2_qrSU0ok3cYrjj89kLuaq_k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

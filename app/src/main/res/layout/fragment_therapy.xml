@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <View
+        android:id="@+id/dark_divider2"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#42A5F5"
+        android:backgroundTint="@color/white" />
+
+    <LinearLayout
+        android:id="@+id/ll_layout_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#D8F3F0"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_message"
+            android:layout_width="297dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight=".5"
+            android:background="@drawable/round_button"
+            android:backgroundTint="@android:color/white"
+            android:textColor="@color/black"
+            android:hint="Type a message..."
+
+            android:inputType="textShortMessage"
+            android:padding="10dp"
+            android:singleLine="true" />
+
+        <ImageButton
+            android:id="@+id/btn_send"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#D8F3F0"
+            android:text="Send"
+            android:textColor="@android:color/white"
+            app:srcCompat="@drawable/buttonchat" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_messages"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_above="@id/ll_layout_bar"
+        android:layout_marginTop="222dp"
+        android:layout_marginBottom="30dp"
+        tools:itemCount="20"
+        tools:listitem="@layout/message_item">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="410dp"
+            android:layout_height="170dp"
+            android:layout_marginEnd="1dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/botimg"
+            tools:layout_conversion_absoluteHeight="150dp"
+            tools:layout_conversion_absoluteWidth="420dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+<!--    <com.google.android.material.bottomnavigation.BottomNavigationView-->
+<!--        android:id="@+id/bottom_navigation"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:background="?android:attr/windowBackground"-->
+<!--        app:menu="@menu/bottom_navigation"/>-->
+</RelativeLayout>

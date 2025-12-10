@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/judulArtikel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Ciri-ciri stress"
+            android:textColor="#1175A3"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp" />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:src="@drawable/info3"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Terakhir diperbarui: 12 November 2021"
+            android:textSize="10dp"
+            android:textColor="#1C9EAE"/>
+
+        <TextView
+            android:layout_marginVertical="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      Stres adalah keadaan ketika seseorang mengalami tekanan yang sangat berat, baik secara emosi maupun mental. Seseorang yang stres biasanya akan tampak gelisah, cemas, dan mudah tersinggung. Stres juga dapat mengganggu konsentrasi, mengurangi motivasi, dan pada kasus tertentu, memicu depresi. Stres bukan saja dapat memengaruhi psikologi penderitanya, tetapi juga dapat berdampak kepada cara bersikap dan kesehatan fisik mereka. Berikut ini adalah contoh dampak stres terhadap perilaku seseorang: menjadi penyendiri dan enggan berinteraksi dengan orang lain, enggan makan atau makan secara berlebihan, marah-marah, dan terkadang kemaharan itu sulit dikendalikan, menjadi perokok atau merokok secara berlebihan, mengonsumsi minuman beralkohol secara berlebihan, penyalahgunaan obat-obatan narkotika. Banyak faktor yang dapat menyebabkan seseorang mengalami stres, sebagian di antaranya adalah masalah keuangan, hubungan sosial, atau tuntutan di dalam pekerjaan. Untuk mengatasi stres, kunci utamanya adalah mengidentifikasi akar permasalahan dan mencari solusinya. Penanggulangan stres juga bisa dilakukan dengan mengaplikasikan nasihat-nasihat yang disarankan dalam manajemen stres yang baik, seperti: belajar menerima suatu masalah yang sulit diatasi atau hal-hal yang tidak dapat diubah, selalu berpikir positif dan memandang bahwa segala sesuatu yang terjadi di dalam hidup ada hikmahnya, belajar mengendalikan diri dan selalu aktif dalam mencari solusi, dan melakukan aktivitas fisik, meditasi, atau teknik relaksasi guna meredakan ketegangan emosi dan menjernihkan pikiran. Munculnya stres ringan atau berat dapat menyerang pada setiap manusia didunia terlepas seberapa cerdasnya seseorang mampu atau tidak mengendalikan stres itu sendiri."
+            android:textSize="14dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ciri-ciri stress yang harus diperhatikan"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:background="@drawable/arrow"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Kesulitan tidur"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:background="@drawable/arrow"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_marginVertical="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      Perasaaan yang tidak menentu yang masih saja berlangsung hingga malam hari maka akan terbawa hingga menjelang tidur, Pikiran pikiran gelisah akan terus muncul ketika anda akan memejamkan mata. Akibatnya saraf saraf otak tidak bisa tenang dan akan terus bekerja keras untuk menyaring dan mengolah informasi dari masalah masalah yang anda ciptakan sendiri yang akhirnya menyebabkan anda selalu dalam keadaan terjaga (tidak mengantuk)."
+            android:textSize="14dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Pola makan berubah"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:background="@drawable/arrow"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_marginVertical="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      Stres yang berkepanjangan mampu mengubah pola makan seseorang menjadi 2 bagian yang sama sama menyebabkan kondisi tubuh menjadi lebih buruk yaitu menjadi tidak nafsu makan lalu badan berangsur angsur kurus atau bahkan menderita kegemukan akibat stres karena makan yang terlalu sering, Porsi diluar kebiasaan dan dengan asupan gizi yang sembarangan."
+            android:textSize="14dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Sakit kepala"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:background="@drawable/arrow"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_marginVertical="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      Stres sangat berhubungan dengan pembuluh darah, Saraf saraf serta otot otot yanag ada diarea kepala. Ketika seseorang mengalami stres maka pembuluh darah, saraf dan otot menjadi menderita ketegangan, Akibatnya aliran darah akan mengalir dengan tidak lancar. jika kondisi ini terus menerus berlangsung selama lebih dari 3 jam maka akan menyebabkan munculnya sakit kepala yang datang timbul tenggelam bahkan bisa menjadi penyebab sering sakit kepala berkepanjangan."
+            android:textSize="14dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Tak mampu mengendalikan emosi"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:background="@drawable/arrow"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_marginVertical="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      Seseorang yang sedang mengalami kelabilan dalam berfikir maka akan dapat terlihat ketika dia tidak mampu mengendalikan emosinya, Mudah tersinggung, Panik dan bahkan keatkutan yang berlebihan. Ketika tidak mampu mengendalika emosi maka seseorang akan kesulitan untuk dapat berfikir secara logis."
+            android:textSize="14dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Melamun dan menarik diri"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:background="@drawable/arrow"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_marginVertical="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      Melamun dan tidak mau berkumpul dengan masyarakat atau teman temannya adalah ciri ciri stres yang paling sering menimpa remaja dan Dewasa. Melamun dan menarik diri dari pergaulan cenderung disebabkan karean dirinya merasa tidak mendapat dukungan dari siappun atas apa yang sedang dialaminya, Karena takut dan malu untuk bicara atau karena merasa tidak percaya diri. Perasaan perasaan itu selalu mengiringi pikiran menjadi tidak menentu yang akhirnya mengakibatkan stres."
+            android:textSize="14dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. Sering mimpi buruk"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:background="@drawable/arrow"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_marginVertical="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      Seseorang yang condong lebih mudah tersinggung dan Selalu marah marah maka kondisi tersebut akan melahirkan perasaan perasaan baru yang lebih buruk yaitu berupa ketakutan, Kebingungan, Kepanikan dan kegelishann yang berlebihan dimana kondisi tersebut mempengaruhi kualitas tidur seseorang menjadi buruk pula. Perasaan perasaan tersebut dapat terekam dalam jaringan otak dan diolah pada alam bawah sadar yang akhirnya terbawa melalui mimpi mimpi yang muncul dengan gambar gambar yang tidak baik (buruk). Sering mengalami mimpi buruk adalah salah satyu ciri ciri stres yang biasa dialami segala umur."
+            android:textSize="14dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7. Mudah lupa"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:background="@drawable/arrow"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_marginVertical="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      Seseorang yang mengalami stres akan terlihat sering lupa dan sulit untuk berkonsentrasi dalam berfikir atau menentukan pilihan yang menurutnya lebih baik. Mudah lupa merupakan ciri ciri stres yang sering menimpa para orangtua lanjut usia dimana perilaku sering lupanya tersebut karena didukung oleh adanya kemunduran daya ingat."
+            android:textSize="14dp"
+            android:textColor="#000000"/>
+    </LinearLayout>
+</ScrollView>

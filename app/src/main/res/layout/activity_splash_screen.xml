@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="@color/white"
+    tools:context=".SplashScreenActivity"
+    android:backgroundTint="@color/white">
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hallo, Selamat Datang di Euphoria.Self-Care"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textColor="#1C9EAE"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="285dp"
+        android:layout_height="287dp"
+        android:layout_gravity="center"
+        android:src="@drawable/applogo" />
+
+    <TextView
+        android:id="@+id/descApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Selamat datang di Euphoria.Self-Care!
+Penyedia layanan kesehatan mental  terpercaya di Indonesia berupa relaksasi untuk pengobatan dan pengontrolan mental secara online."
+        android:textAlignment="center"
+        android:textColor="#8E8E8E"
+        android:textSize="13dp" />
+
+    <TextView
+        android:id="@+id/mottoApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Karena terkadang yang dibutuhkan hanyalah tempat bercerita"
+        android:textSize="13dp"
+        android:textAlignment="center"
+        android:textColor="#191847"
+        android:textStyle="italic"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

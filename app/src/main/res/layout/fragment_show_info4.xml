@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/judulArtikel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Cara Mengatasi Stress"
+            android:textColor="#1175A3"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp" />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:src="@drawable/info4"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Terakhir diperbarui: 12 November 2021"
+            android:textSize="10dp"
+            android:textColor="#1C9EAE"/>
+        <TextView
+            android:layout_marginVertical="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      Stres adalah keadaan ketika seseorang mengalami tekanan yang sangat berat, baik secara emosi maupun mental. Seseorang yang stres biasanya akan tampak gelisah, cemas, dan mudah tersinggung. Stres juga dapat mengganggu konsentrasi, mengurangi motivasi, dan pada kasus tertentu, memicu depresi. Stres bukan saja dapat memengaruhi psikologi penderitanya, tetapi juga dapat berdampak kepada cara bersikap dan kesehatan fisik mereka. Berikut ini adalah contoh dampak stres terhadap perilaku seseorang: menjadi penyendiri dan enggan berinteraksi dengan orang lain, enggan makan atau makan secara berlebihan, marah-marah, dan terkadang kemaharan itu sulit dikendalikan, menjadi perokok atau merokok secara berlebihan, mengonsumsi minuman beralkohol secara berlebihan, penyalahgunaan obat-obatan narkotika. Banyak faktor yang dapat menyebabkan seseorang mengalami stres, sebagian di antaranya adalah masalah keuangan, hubungan sosial, atau tuntutan di dalam pekerjaan. Untuk mengatasi stres, kunci utamanya adalah mengidentifikasi akar permasalahan dan mencari solusinya. Penanggulangan stres juga bisa dilakukan dengan mengaplikasikan nasihat-nasihat yang disarankan dalam manajemen stres yang baik, seperti: belajar menerima suatu masalah yang sulit diatasi atau hal-hal yang tidak dapat diubah, selalu berpikir positif dan memandang bahwa segala sesuatu yang terjadi di dalam hidup ada hikmahnya, belajar mengendalikan diri dan selalu aktif dalam mencari solusi, dan melakukan aktivitas fisik, meditasi, atau teknik relaksasi guna meredakan ketegangan emosi dan menjernihkan pikiran. Ada banyak sekali cara menghindari stres dan cara mengatasi stress super ampuh yang dapat anda terapkan pada kehidupan sehari-hari seperti:"
+            android:textSize="14dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Olahraga"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:background="@drawable/arrow"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_marginVertical="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      Olahraga bukan hanya membuat badan menjadi lebih sehat dan terasa lebih segar namun juga bagus untuk mengatasi stres. Selain itu, olahraga juga dapat membuat percaya diri semakin meningkat. Untuk mencegah datangnya tekanan pikiran. Olahraga tidak perlu mengeluarkan banyak biaya melainkan cukup dilakukan dengan cara sederhana dan dapat dilakukan dimana-mana seperti halnya olahraga jogging dan bersepeda karena olahraga memiliki manfaat olahraga bagi kesehatan tubuh."
+            android:textSize="14dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Rekreasi"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:background="@drawable/arrow"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_marginVertical="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      Satu hal yang baling banyak dilakukan ketika masalah melanda sehingga pikiran menjadi tertekan adalah dengan melakukan wisata. Wisata dapat dilakukan dengan orang-orang tercinta seperti sahabat, pacar atau bahkan dengan keluarga. Rekreasi dapat dilakukan dengan cara mengunjungi area-area wisata yang menarik entah di dalam atau di luar negeri. Berwisata membantu untuk melupakan masalah anda sehingga pikiran tidak akan terfokus pada tekanan. Beragam tempat rekreasi, terutama wisata alam dapat membuat perasaan serta pikiran anda menjadi lebih nyaman dan pastinya mampu mendinginkan kepala."
+            android:textSize="14dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Istirahat cukup"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:background="@drawable/arrow"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_marginVertical="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      Bukan hanya tubuh, namun otak kita juga membutuhkan istirahat dari banyaknya masalah-masalah yang membebani. Istirahat yang cukup membantu kita dalam menyegarkan kembali otak sehingga dapat kembali digunakan untuk berpikir secara jernih. Membagi waktu dengan baik merupakan solusi jitu untuk mendapatkan waktu tidur yang cukup. Selain itu, pada saat beranjak tidur hendaknya anda menjauhkan diri anda dari pikiran-pikiran yang tidak perlu sehingga tidur akan menjadi nyaman dan nyenyak."
+            android:textSize="14dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Salurkan hobi"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:background="@drawable/arrow"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_marginVertical="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      Tiap orang sudah pasti memiliki hobi atau kesenangan terhadap suatu hal yang berbeda-beda. Dalam menghindari serta mencegah terjadinya stres hobi bisa menjadi obat yang cukup mujarab. Lakukan hobi anda supaya pikiran anda menjadi lebih rileks sejenak. Hobi akan terasa lebih menyenangkan ketika dilakukan bersama-sama dengan orang yang disuka. Hobi yang dilakukan bersama orang tersayang tentu menjadi sebuah pengalaman seru yang berguna untuk menyegarkan pikiran."
+            android:textSize="14dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Rileks"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:background="@drawable/arrow"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_marginVertical="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      Rileks dapat dilakukan dengan cara melakukan yoga, berdoa serta melakukan pijat. Bagi anda yang tengah berada tekanan pekerjaan, sebaiknya anda mencari sela- sela waktu saat bekerja untuk sekedar mendinginkan pikiran anda. Pijat atau yoga dapat dilakukan di rumah atau dapat pula dilakukan di pusat kebugaran. Kegiatan ini membantu anda untuk merilekskan pikiran serta otot- otot di dalam tubuh sehingga tidak terus- terusan tegang dan tidak menjadi penyebab sakit kepala."
+            android:textSize="14dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. Ceritakan masalah kita"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:background="@drawable/arrow"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_marginVertical="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      Ketika mendapat masalah yang begitu besar tentu memendam masalah anda sendiri bukanlah hal yang baik. Ada baiknya jika anda bercerita kepada teman atau keluarga yang dapat dipercaya dalam menjaga masalah kita. Cari waktu untuk sekedar curhat dan mencari solusi atas masalah yang tengah dirasa. Solusi yang baik terkadang bukan berasal dari diri sendiri melainkan dari teman sehingga tidak ada salahnya jika anda berbagi pada mereka. Anda tidak perlu terbuka pada siapa saja melainkan cukup pada teman atau keluarga dekat saja."
+            android:textSize="14dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7. Sikap tegas"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:background="@drawable/arrow"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_marginVertical="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      Sikap tegas ternyata dapat membantu kita dalam menghindari masalah. Ketika seseorang meminta bantuan kita, memang akan lebih baik jika kita bisa membantu mereka namun jika bantuan yang diinginkan sulit untuk dilakukan, sebaiknya anda katakan dengan tegas jika anda tidak dapat membantunya. Ketika mengatakan bersedia membantu bahkan hingga tuntas, tentu akan menjadi masalah ketika anda tidak benar- benar menguasai hal tersebut."
+            android:textSize="14dp"
+            android:textColor="#000000"/>
+    </LinearLayout>
+</ScrollView>

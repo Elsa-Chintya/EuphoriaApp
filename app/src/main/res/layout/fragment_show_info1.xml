@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/judulArtikel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Tentang Kesehatan Mental"
+            android:textColor="#1175A3"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp" />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:src="@drawable/info1"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Terakhir diperbarui: 11 November 2021"
+            android:textSize="10dp"
+            android:textColor="#1C9EAE"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      Kesehatan mental yang baik adalah kondisi ketika batin kita berada dalam keadaan tentram dan tenang, sehingga memungkinkan kita untuk menikmati kehidupan sehari-hari dan menghargai orang lain di sekitar. Seseorang yang bermental sehat dapat menggunakan kemampuan atau potensi dirinya secara maksimal dalam menghadapi tantangan hidup, serta menjalin hubungan positif dengan orang lain. Sebaliknya, orang yang kesehatan mentalnya terganggu akan mengalami gangguan suasana hati, kemampuan berpikir, serta kendali emosi yang pada akhirnya bisa mengarah pada perilaku buruk. Penyakit mental dapat menyebabkan masalah dalam kehidupan sehari-hari, tidak hanya dapat merusak interaksi atau hubungan dengan orang lain, namun juga dapat menurunkan prestasi di sekolah dan produktivitas kerja. oleh sebab itu, sudah saatnya kita menjalankan pola hidup sehat. Terdapat beberapa jenis masalah kesehatan mental dan berikut ini adalah tiga jenis kondisi yang paling umum terjadi."
+            android:textSize="14dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stress"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:background="@drawable/arrow"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_marginVertical="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      Stres adalah keadaan ketika seseorang mengalami tekanan yang sangat berat, baik secara emosi maupun mental. Seseorang yang stres biasanya akan tampak gelisah, cemas, dan mudah tersinggung. Stres juga dapat mengganggu konsentrasi, mengurangi motivasi, dan pada kasus tertentu, memicu depresi. Stres bukan saja dapat memengaruhi psikologi penderitanya, tetapi juga dapat berdampak kepada cara bersikap dan kesehatan fisik mereka. Berikut ini adalah contoh dampak stres terhadap perilaku seseorang: menjadi penyendiri dan enggan berinteraksi dengan orang lain, enggan makan atau makan secara berlebihan, marah-marah, dan terkadang kemaharan itu sulit dikendalikan, menjadi perokok atau merokok secara berlebihan, mengonsumsi minuman beralkohol secara berlebihan, penyalahgunaan obat-obatan narkotika. Banyak faktor yang dapat menyebabkan seseorang mengalami stres, sebagian di antaranya adalah masalah keuangan, hubungan sosial, atau tuntutan di dalam pekerjaan. Untuk mengatasi stres, kunci utamanya adalah mengidentifikasi akar permasalahan dan mencari solusinya. Penanggulangan stres juga bisa dilakukan dengan mengaplikasikan nasihat-nasihat yang disarankan dalam manajemen stres yang baik, seperti: belajar menerima suatu masalah yang sulit diatasi atau hal-hal yang tidak dapat diubah, selalu berpikir positif dan memandang bahwa segala sesuatu yang terjadi di dalam hidup ada hikmahnya, belajar mengendalikan diri dan selalu aktif dalam mencari solusi, dan melakukan aktivitas fisik, meditasi, atau teknik relaksasi guna meredakan ketegangan emosi dan menjernihkan pikiran."
+            android:textSize="14dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gangguan Kecemasan"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:background="@drawable/arrow"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_marginVertical="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      Gangguan kecemasan adalah kondisi psikologis ketika seseorang mengalami rasa cemas berlebihan secara konstan dan sulit dikendalikan, sehingga berdampak buruk terhadap kehidupan sehari-harinya. Bagi sebagian orang normal, rasa cemas biasanya timbul pada suatu kejadian tertentu saja, misalnya saat akan menghadapi ujian di sekolah atau wawancara kerja. Namun pada penderita gangguan kecemasan, rasa cemas ini kerap timbul pada tiap situasi. Itu sebabnya orang yang mengalami kondisi ini akan sulit merasa rileks dari waktu ke waktu. Selain gelisah atau rasa takut yang berlebihan, gejala psikologis lain yang bisa muncul pada penderita gangguan kecemasan adalah berkurangnya rasa percaya diri, menjadi mudah marah, stres, sulit berkonsentrasi, dan menjadi penyendiri. Sebenarnya, gangguan kecemasan dapat diatasi tanpa bantuan dokter melalui beberapa cara, seperti mengonsumsi makanan bergizi tinggi, cukup tidur, mengurangi asupan kafein, minuman beralkohol, atau zat penenang lainnya, tidak merokok, berola raga secara rutin, dan melakukan metode relaksasi sederhana, seperti yoga atau meditasi. Jika pengobatan mandiri tidak memberikan perubahan, disarankan untuk berkonsultasi dengan dokter. Penanganan dari dokter biasanya meliputi pemberian obat-obatan antiansietas serta terapi kognitif."
+            android:textSize="14dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Depresi"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:background="@drawable/arrow"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_marginVertical="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      Depresi merupakan gangguan suasana hati yang menyebabkan penderitanya terus-menerus merasa sedih. Berbeda dengan kesedihan biasa yang umumnya berlangsung selama beberapa hari, perasaan sedih pada depresi bisa berlangsung hingga berminggu-minggu atau berbulan-bulan. Selain memengaruhi perasaan atau emosi, depresi juga dapat menyebabkan masalah fisik, mengubah cara berpikir, serta mengubah cara berperilaku penderitanya. Tidak jarang penderita depresi sulit menjalani aktivitas sehari-hari secara normal. Bahkan pada kasus tertentu, mereka bisa menyakiti diri sendiri dan mencoba bunuh diri. Selain itu, depresi yang dialami seseorang juga bisa disebabkan oleh penderitaan akibat penyakit parah dan berkepanjangan, seperti kanker dan gangguan jantung, cedera parah di kepala, efek dari konsumsi minuman beralkohol berlebihan dan obat-obatan terlarang, hingga akibat faktor genetik dalam keluarga. Dianjurkan untuk berkonsultasi ke dokter jika merasakan gejala-gejala depresi selama lebih dari dua minggu dan tidak kunjung mereda.  Apalagi jika gejala depresi tersebut sampai mengganggu proses pendidikan, pekerjaan, dan hubungan sosial. Penanganan depresi oleh dokter akan disesuaikan dengan tingkat keparahan depresi yang diderita masing-masing pasien. Bentuk penanganan bisa berupa terapi konsultasi, pemberian obat-obatan antidepresi, atau kombinasi keduanya."
+            android:textSize="14dp"
+            android:textColor="#000000"/>
+    </LinearLayout>
+</ScrollView>

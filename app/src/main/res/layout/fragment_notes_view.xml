@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="@drawable/button_rounded2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Catatan ke-"
+                android:textColor="#55B6C2"/>
+
+            <TextView android:id="@+id/id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ID"
+                android:textColor="#55B6C2"/>
+
+        </LinearLayout>
+
+        <TextView android:id="@+id/title" android:textSize="20dp"
+            android:textColor="#FF5C00"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title"/>
+
+        <TextView android:id="@+id/desc" android:textColor="#4B4B4B"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Desc"/>
+    </LinearLayout>
+</LinearLayout>

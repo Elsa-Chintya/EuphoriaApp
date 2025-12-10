@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".home"
+        android:layout_margin="15dp"
+        android:background="#FFFFFF"
+        android:orientation="vertical">
+
+
+        <!-- HEADER DENGAN ICON LONCENG -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingHorizontal="10dp">
+
+            <TextView
+                android:id="@+id/space"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Elsa's Space"
+                android:textColor="#FF5C00"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+
+            <!-- 🔔 TOMBOL NOTIF BARU -->
+            <ImageView
+                android:id="@+id/btnNotif"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_notification"
+                android:padding="5dp"
+                android:contentDescription="Notifikasi" />
+        </LinearLayout>
+
+        <!-- Identitas -->
+        <LinearLayout
+            android:id="@+id/identitas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_rounded"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/dp"
+                android:layout_width="95dp"
+                android:layout_height="95dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/ic_baseline_account_circle_24"
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pasien"
+                    android:textColor="#FF5C00"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:id="@+id/Nama"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Elsa Chintya"
+                    android:textColor="#1C9EAE"
+                    android:textSize="16dp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/nohp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:text="085216551655"
+                    android:textColor="#8E8E8E"/>
+
+                <TextView
+                    android:id="@+id/alamat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jl. Ir.Soekarno No.47, Mulyorejo, Kota Surabaya Jawa Timur, Indonesia"
+                    android:textColor="#8E8E8E"
+                    android:textSize="12dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Self care -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:text="SELF-CARE"
+            android:textColor="#8E8E8E"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btnPlay"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Play"
+                    android:backgroundTint="@color/teal_700"
+                    android:textColor="@android:color/white"/>
+
+                <Button
+                    android:id="@+id/btnNext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginHorizontal="8dp"
+                    android:text="Next"
+                    android:backgroundTint="@color/teal_200"
+                    android:textColor="@android:color/white"/>
+
+                <Button
+                    android:id="@+id/btnStop"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Stop"
+                    android:backgroundTint="#D9534F"
+                    android:textColor="@android:color/white"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/notes"
+                android:layout_width="wrap_content"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FBFBFB"
+                android:drawableTop="@drawable/ic_baseline_note_add_24"
+                android:drawableTint="#BAE4DF"
+                android:text="Notes"
+                android:textColor="#BAE4DF"
+                android:textSize="8dp" />
+
+            <Button
+                android:id="@+id/info"
+                android:layout_width="wrap_content"
+                android:layout_height="77dp"
+                android:layout_marginHorizontal="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="#58A0C8"
+                android:drawableTop="@drawable/ic_baseline_menu_book_24"
+                android:drawableTint="#BAE4DF"
+                android:text="Information"
+                android:textColor="#BAE4DF"
+                android:textSize="8dp" />
+
+            <Button
+                android:id="@+id/Call"
+                android:layout_width="wrap_content"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:backgroundTint="#58A0C8"
+                android:drawableTop="@drawable/ic_baseline_add_ic_call_24"
+                android:drawableTint="#BAE4DF"
+                android:text="Emergency Call"
+                android:textColor="#BAE4DF"
+                android:textSize="8dp" />
+        </LinearLayout>
+
+        <!-- Mood Tracker -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:text="Bagaimana perasaanmu hari ini?"
+            android:textColor="#8E8E8E"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:id="@+id/moodContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:id="@+id/happyIcon"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/ic_happy"
+                android:padding="8dp" />
+
+            <ImageView
+                android:id="@+id/angryIcon"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/ic_angry"
+                android:padding="8dp"
+                android:layout_marginHorizontal="16dp" />
+
+            <ImageView
+                android:id="@+id/sadIcon"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/ic_sad"
+                android:padding="8dp" />
+        </LinearLayout>
+
+        <!-- RS Recommendation -->
+        <RelativeLayout
+            android:id="@+id/talkwith"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/talk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rekomendasi RS Surabaya"
+                android:textColor="#8E8E8E"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnMapLain"
+                android:layout_width="wrap_content"
+                android:layout_height="33dp"
+                android:layout_alignParentRight="true"
+                android:text="Lainnya"
+                android:backgroundTint="#58A0C8"
+                android:textColor="@color/white"
+                android:textSize="10dp" />
+        </RelativeLayout>
+
+        <!-- RS 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:background="@drawable/button_rounded"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/terapis1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                app:srcCompat="@drawable/applogo" />
+
+            <LinearLayout
+                android:id="@+id/tawaran1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/pst1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tempat konsultasi terbaik"
+                    android:textColor="#FF5C00"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="RSJ Menur"
+                    android:textColor="#1C9EAE"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jl. Raya Menur No.120, Gubeng, Surabaya"
+                    android:textColor="#8E8E8E"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="phone"
+                    android:text="+62315021635"
+                    android:textColor="#8E8E8E"
+                    android:textSize="10dp" />
+
+                <Button
+                    android:id="@+id/btnSesi1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:backgroundTint="#1B96A6"
+                    android:text="Lihat Maps"
+                    android:textColor="@color/white"
+                    android:textSize="8dp"
+                    android:layout_marginTop="5dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- RS 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:background="@drawable/button_rounded"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                app:srcCompat="@drawable/applogo" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tempat konsultasi terbaik"
+                    android:textColor="#FF5C00"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="RS Husada Utama"
+                    android:textColor="#1C9EAE"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jl. Mayjen Prof. Dr. Moestopo No.31-35"
+                    android:textColor="#8E8E8E"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="phone"
+                    android:text="+620315018335"
+                    android:textColor="#8E8E8E"
+                    android:textSize="10dp" />
+
+                <Button
+                    android:id="@+id/btnSesi2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:backgroundTint="#1B96A6"
+                    android:text="Lihat Maps"
+                    android:textColor="@color/white"
+                    android:textSize="8dp"
+                    android:layout_marginTop="5dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

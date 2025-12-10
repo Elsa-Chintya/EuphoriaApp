@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Call1"
+        android:layout_margin="20dp"
+        android:background="#FFFFFF">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_baseline_add_ic_call_30_oren"
+                android:drawablePadding="10dp"
+                android:drawableTint="#FF5C00"
+                android:text="Emergency Call"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#FF5C00"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                app:srcCompat="@drawable/applogo"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textColor="#4B4B4B"
+                android:layout_marginHorizontal="20dp"
+                android:text="Berada di situasi darurat? Tetap tenang dan jangan khawatir, Anda dapat menelepon bantuan. Bantuan akan bergegas menuju ke lokasi Anda untuk memberikan bantuan"
+                android:textSize="15dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="102dp"
+                android:layout_marginVertical="30dp"
+                android:background="@drawable/call_rounded"
+                android:orientation="vertical"
+                android:paddingHorizontal="50dp"
+                android:paddingVertical="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Hubungi:"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="#FF5C00"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autoLink="phone"
+                    android:gravity="center"
+                    android:linksClickable="true"
+                    android:text="+6221500454"
+                    android:textColor="#DB2721"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textColor="#8E8E8E"
+                android:layout_marginVertical="10dp"
+                android:layout_marginHorizontal="20dp"
+                android:text="Ketuk nomor untuk memulai panggilan darurat"
+                android:textSize="16dp"/>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

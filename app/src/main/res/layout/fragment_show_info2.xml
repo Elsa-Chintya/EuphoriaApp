@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/judulArtikel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Langkah Cegah Depresi"
+            android:textColor="#1175A3"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp" />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:src="@drawable/info2"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Terakhir diperbarui: 15 November 2021"
+            android:textSize="10dp"
+            android:textColor="#1C9EAE"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      Depresi merupakan gangguan suasana hati yang menyebabkan penderitanya terus-menerus merasa sedih. Berbeda dengan kesedihan biasa yang umumnya berlangsung selama beberapa hari, perasaan sedih pada depresi bisa berlangsung hingga berminggu-minggu atau berbulan-bulan. Selain memengaruhi perasaan atau emosi, depresi juga dapat menyebabkan masalah fisik, mengubah cara berpikir, serta mengubah cara berperilaku penderitanya. Tidak jarang penderita depresi sulit menjalani aktivitas sehari-hari secara normal. Bahkan pada kasus tertentu, mereka bisa menyakiti diri sendiri dan mencoba bunuh diri. Berikut beberapa cara untuk mencegah depresi."
+            android:textSize="14dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Tingkatkan self awareness"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:background="@drawable/arrow"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_marginVertical="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      Self awareness (kesadaran diri) merupakan salah satu kondisi dimana tiap tiap individu mampu untuk menyadari diri sendiri, termasuk di dalamnya pandangan tentang diri sendiri, kebaikan keburukan, serta berbagai macam kondisi yang menyangkut dirinya sendiri, salah satunya stress. Dengan adanya self awareness yang baik, maka masing masing individu akan mengetahui tingkat resitensi dirinya masing-masing terhadap stress. Ketika seseorang sudah paham mengenai kemunculan stress pada dirinya, maka individu akan lebih mudah mengantisipasi kemunculan stres dan juga mengurangi kemunculan stress di dalam dirinya, dimana stress dapat berujung kepada gejala depresi."
+            android:textSize="14dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Selalu jaga pola makan bergizi dan juga teratur"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:background="@drawable/arrow"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_marginVertical="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      Pola makan dan juga gizi haruslah anda atur apabila anda tidak ingin mengalami depresi. Pola makan dan juga asupan gizi ini sangat membantu anda dalam beraktivitas, sehingga paling tidak tenaga dan juga energy yang anda keluarkan untuk melakukan aktivitas tidaklah kosong. Apabila anda melakukan aktivitas dengan kondisi energy yang kosong, maka anda nantinya akan lebih mudah merasa tertekan dan juga kemungkinan untuk mengalami depresi menjadi lebih tinggi lagi probabilitasnya."
+            android:textSize="14dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Rajin melakukan olahraga dan jalankan hobi secara rutin"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:background="@drawable/arrow"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_marginVertical="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      Selain mengatur pola makan dan juga asupan gizi yang baik dan benar seperti memakan makanan 4 sehat 5 sempurna, salah satu cara lain adalah dengan melakukan rutin berolahraga. Ya, olahraga secara rutin memiliki manfaat olahraga bagi kesehatan tubuh membuat kondisi mental dan juga fisik anda menjadi jauh lebih segar dan juga sehat. Dengan kondisi mental dan juga fisik menjadi lebih sehat, maka anda pun bisa terbebas dari tekanan dan juga stress yang dapat menyebabkan terjadinya depresi. Hobi merupakan suatu kegiatan yang disenangi oleh masng-masing individu. tentu saja tiap-tiap individu memilki hobi yang berbeda-beda pula. Ketika anda mulai merasa tertekan, atau ketika anda mulai merasa lelah dan juga jenuh, lakukanlah hobi anda dengan baik. Hobi yang anda jalani dengan baik, akan membantu anda dalam menenangkan pikiran, yang nantinya akan berefek pada berkurangnya kemunculan efek depresi akibat stress yang parah."
+            android:textSize="14dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Banyak berdoa, beribadah, dan selalu bersyukur"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:background="@drawable/arrow"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_marginVertical="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      Berdoa dan juga beribadah juga merupakan salah satu bentuk strategi untuk menenangkan pikiran dari bebragai macam tekanan dan juga berbagai macam stress. Dengan banyak berdoa dan juga beribadah, maka pikiran dan juga mental kita akan menjadi lebih baik dan jug alebih tenang. Hal ini nantinya aakan sanagt bermanfaat bagi anda yang sedang berada dalam tekanan, karena dengan banyak berdoa dan beribadah, anda bisa mengurangi resiko mengalami stress yang dapat berujung pada depresi. Rasa syukur yang kita ungkapkan, baik kepada Pencipta dan juga kepada orang lain akan membantu kita menjadi orang yang lebih peduli dan juga lebih bahagia akan suatu hal. Dengan adanya rasa syukur, maak kita akan selalu menyusukuri apa yang sudah kita peroleh. Dengan begitu, kita pun akan merasa lebih tenang, dan tentu saja dengan begitu kita juga bisa menjadi lebih resisten terhadap tekanan, stress, dan juga depresi yang sangat berbahaya."
+            android:textSize="14dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Istirahat yang cukup ketika tubuh sudah merasa lelah"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:background="@drawable/arrow"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_marginVertical="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      Isitirahat juga merupakan salah satu hal yang sangat penting dalam mencegah kemunculan depresi. Ya, ketika anda sudah merasa cepat lelah dan jantung berdebar dengan kesulitan pekerjaan anda, maka anda wajib untuk beristirahat. Istirahat selain baik bagi kesehatan fisik anda, juga sanagt baik untuk kesehatan mental anda, karena dengan istirahat, anda akan merasa rileks, dan juga lebih tenang, ketika anda sudah merasa lebih tenang, maka tentu saja nantinya andan akan terhindar dari kondisi stress yang dapat menuntun kepada munculnya depresi pada diri anda."
+            android:textSize="14dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. Perbanyak hubungan dan relasi sosial, dengan keluarga, teman, dan juga kerabat"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:background="@drawable/arrow"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_marginVertical="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      Sebagai makhluk sosial, kita harus mampu untuk membangun banyak hubungan dan juga relasi secara sosial. Ya, dengan kemampuan bersosialisasi yang baik, kita bisa terhindar dari depresi dan juga stress. Ketika kita sedang bersosialisasi, maka akan muncul perasaan-perasaan yang sifatnya positif, seperti bahagia, senang, bangga, dan sebagainya. Perasaan-perasaan positif yang muncul inilah yang sangat penting bagi kita untuk mencegah munculnya depresi. Ketika kita mampu untuk menunjukkan perasaan yang positif, maka stress dan juga depresi yang sifatnya negative akan hilang dan pergi dari diri kita."
+            android:textSize="14dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7. Selalu berpikir positif ketika muncul suatu masalah"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:background="@drawable/arrow"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_marginVertical="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      Pikiran negative merupakan salah satu biang keladi dari munculnya depresi dan juga stress. Dengan selalu berpikiran negative, maka kita nantinya akan terlalu banyak berpikir mengenai sesuai yang sifatnya buruk. Ketika kita terlalu focus pada hal-hal yang sifatnya buruk, maka hal ini akan menyebabkan banyaknya tekanan dan juga stress menghampiri diri kita. ketika stress datang, dan kita tidak mampu untuk mengubahnya menjadi sesuatu yang positif, maka ini akan menimbulkan depresi di dalam tubuh kita dan kita harus memiliki cara menghindari stres. karena itu, berpikir positif adalah salah satu kunci utama yang bisa anda gunakan untuk mencegah kemunculan depresi dan juga stress tentunya."
+            android:textSize="14dp"
+            android:textColor="#000000"/>
+    </LinearLayout>
+</ScrollView>

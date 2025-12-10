@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/nav_therapy"
+        android:icon="@drawable/ic_baseline_forum_24"
+        android:title="Talk" />
+
+    <!-- 🔔 IKON LONCENG NOTIFIKASI (TAMBAHAN BARU) -->
+    <item
+        android:id="@+id/nav_notification"
+        android:icon="@drawable/ic_notification_bell"
+        android:title="Alarm" />
+
+    <item
+        android:id="@+id/nav_journal"
+        android:icon="@drawable/ic_journal"
+        android:title="Jurnal" />
+
+
+    <item
+        android:id="@+id/nav_selfcare"
+        android:icon="@drawable/ic_baseline_apps_24"
+        android:title="Self-Care" />
+
+
+</menu>
