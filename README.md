@@ -1,4 +1,4 @@
-<img width="751" height="599" alt="image" src="https://github.com/user-attachments/assets/a2f90048-e776-4fa9-af95-229e47aedc4f" />📱 Project Pemrograman Mobile  – Kelompok 5
+📱 Project Pemrograman Mobile  – Kelompok 5
 
 Project ini dibuat sebagai bagian dari tugas pemrograman Android untuk mempelajari cara menggunakan Git dan GitHub sebagai version control dalam pengembangan aplikasi. Pada proyek ini, dilakukan proses pengelolaan kode menggunakan Git serta pengunggahan project Android Studio ke repository GitHub sebagai dokumentasi dan backup cloud.
 
