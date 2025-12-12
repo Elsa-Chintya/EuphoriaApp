@@ -1,7 +1,7 @@
 📱 Project Pemrograman Mobile  – Kelompok 5
 
-✨Tentang Aplikasi✨
- Euphoria Self-Care adalah aplikasi berbasis mobile yang dirancang untuk membantu pengguna dalam menjaga dan meningkatkan kesehatan mental melalui aktivitas self-care yang mudah diakses dan digunakan. Aplikasi ini berfokus pada pemantauan suasana hati, refleksi diri, serta pemberian dukungan emosional secara mandiri dalam kehidupan sehari-hari.
+✨Tentang Aplikasi✨  
+Euphoria Self-Care adalah aplikasi berbasis mobile yang dirancang untuk membantu pengguna dalam menjaga dan meningkatkan kesehatan mental melalui aktivitas self-care yang mudah diakses dan digunakan. Aplikasi ini berfokus pada pemantauan suasana hati, refleksi diri, serta pemberian dukungan emosional secara mandiri dalam kehidupan sehari-hari.
 
 🎯Fitur Utama Yang Telah Diperbarui 
 Beberapa fitur utama yang tersedia dalam aplikasi ini, antara lain:
