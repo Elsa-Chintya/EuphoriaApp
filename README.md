@@ -1,7 +1,26 @@
 📱 Project Pemrograman Mobile  – Kelompok 5
 
-Project ini dibuat sebagai bagian dari tugas pemrograman Android untuk mempelajari cara menggunakan Git dan GitHub sebagai version control dalam pengembangan aplikasi. Pada proyek ini, dilakukan proses pengelolaan kode menggunakan Git serta pengunggahan project Android Studio ke repository GitHub sebagai dokumentasi dan backup cloud.
+✨Tentang Aplikasi✨
+Euphoria Self-Care adalah aplikasi berbasis mobile yang dirancang untuk membantu pengguna dalam menjaga dan meningkatkan kesehatan mental melalui aktivitas self-care yang mudah diakses dan digunakan. Aplikasi ini berfokus pada pemantauan suasana hati, refleksi diri, serta pemberian dukungan emosional secara mandiri dalam kehidupan sehari-hari.
 
+🎯Fitur Utama Yang Telah Diperbarui 
+Beberapa fitur utama yang tersedia dalam aplikasi ini, antara lain:
+- 😊 Mood Tracker
+  Mencatat dan memantau suasana hati pengguna setiap hari
+- 📓 Jurnal Harian
+  Tempat menuliskan perasaan, pengalaman, dan refleksi diri
+- 🕰️ Riwayat Jurnal
+  Melihat kembali catatan jurnal yang telah dibuat sebelumnya
+- 🌿 Self-Care Activity
+  Rekomendasi aktivitas positif untuk membantu mengelola stres
+- ⏰ Notifikasi Pengingat / Alarm
+  Pengingat agar pengguna tetap konsisten melakukan self-care
+- 💬 Talk (Chatbot)
+  Media percakapan sederhana sebagai dukungan emosional awal
+- ℹ️ Informasi
+  Informasi singkat seputar kesehatan mental dan self-care
+- 🚨 Emergency Call
+  Akses cepat ke layanan darurat saat dibutuhkan
 
 🛠️ Tools & Teknologi
 1. Android Studio
@@ -15,19 +34,11 @@ Project ini berisi:
 - File konfigurasi Gradle
 - Struktur project bawaan Android Studio
 
-🚀 Alur Pengerjaan
-1. Membuat akun GitHub dan repository baru.
-2. Mengaktifkan Git di Android Studio melalui Enable Version Control Integration.
-3. Melakukan initial commit untuk menyimpan perubahan pertama.
-4. Menghubungkan project ke repository GitHub menggunakan Git Remotes.
-5. Melakukan push untuk mengunggah seluruh file project ke GitHub.
-6. Memverifikasi hasil upload melalui repository online.
-7. 
-Proyek Ini Dikerjakan Oleh :
-Aziza Damayanti	(24050974064)
-Karolina Hesti Utami	(24050974071)
-Elsa Chintya Ayu Agustyanningsih	(24050974082)
-Velisa Alya Quraini	(24050974091)
+👥Proyek Ini Dikerjakan Oleh :
+1. Aziza Damayanti	(24050974064)
+2. Karolina Hesti Utami	(24050974071)
+3. Elsa Chintya Ayu Agustyanningsih	(24050974082)
+4. Velisa Alya Quraini	(24050974091)
 
 Dosen Pengampu Mata Kuliah Pemrograman Mobile : Ir. Rizky Basatha, S.Pd., M.MT.
 
