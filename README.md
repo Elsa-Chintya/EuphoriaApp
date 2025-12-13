@@ -1,12 +1,13 @@
 📱 Project Pemrograman Mobile  – Kelompok 5
 ##Tampilan Aplikasi Yang Telah Diperbarui
-<img width="740" height="337" alt="Desain tanpa judul" src="https://github.com/user-attachments/assets/0aa3f493-dbd0-4260-af3f-d1479525b0c8" />
+<img width="2313" height="1053" alt="Desain tanpa judul (3)" src="https://github.com/user-attachments/assets/c487f48a-8bfb-458c-b276-eb1b0b776b1d" />
 
 ##✨Tentang Aplikasi✨  
 Euphoria Self-Care adalah aplikasi berbasis mobile yang dirancang untuk membantu pengguna dalam menjaga dan meningkatkan kesehatan mental melalui aktivitas self-care yang mudah diakses dan digunakan. Aplikasi ini berfokus pada pemantauan suasana hati, refleksi diri, serta pemberian dukungan emosional secara mandiri dalam kehidupan sehari-hari.
 
 ##🎯Fitur Utama Yang Telah Diperbarui
-<img width="740" height="337" alt="Desain tanpa judul (1)" src="https://github.com/user-attachments/assets/45710072-3296-420c-acd3-fcba29763200" />
+<img width="2313" height="1053" alt="Desain tanpa judul (2)" src="https://github.com/user-attachments/assets/237a433e-833c-425f-aac3-3b114aff8881" />
+
 Beberapa fitur utama yang tersedia dalam aplikasi ini, antara lain:
 - 😊 Mood Tracker
   Mencatat dan memantau suasana hati pengguna setiap hari
